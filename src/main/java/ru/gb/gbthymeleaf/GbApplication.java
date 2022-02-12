@@ -3,18 +3,12 @@ package ru.gb.gbthymeleaf;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import ru.gb.gbthymeleaf.entity.Product;
-import ru.gb.gbthymeleaf.entity.enums.Status;
-import ru.gb.gbthymeleaf.service.ProductService;
-
-import java.math.BigDecimal;
-import java.time.LocalDate;
 
 @SpringBootApplication
-public class GbThymeleafApplication {
+public class GbApplication {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(GbThymeleafApplication.class, args);
+        ConfigurableApplicationContext context = SpringApplication.run(GbApplication.class, args);
 
 //        ProductService productService = context.getBean(ProductService.class);
 //
